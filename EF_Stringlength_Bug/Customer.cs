@@ -11,7 +11,7 @@ namespace EF_Stringlength_Bug
         string Name
     );
 
-    [Index(nameof(CustomerRecord.Name), IsUnique = true)]
+    [Index(nameof(CustomerClass.Name), IsUnique = true)]
     public class CustomerClass
     {
         public int Id { get; init; }
